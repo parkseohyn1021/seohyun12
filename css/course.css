@@ -1,0 +1,443 @@
+* { 
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@font-face {
+	src : url(../fonts/NanumSquare_acR.ttf);
+	font-family: Namumsq-R;
+}
+
+@font-face {
+	src : url(../fonts/NanumSquare_acB.ttf);
+	font-family: Namumsq-B;
+}
+
+@font-face {
+	src : url(../fonts/NanumSquare_acEB.ttf);
+	font-family: Namumsq-EB;
+}
+
+@font-face {
+	src : url(../fonts/NanumSquare_acL.ttf);
+	font-family: Namumsq-L;
+}
+
+
+
+
+
+.navbar-brand {
+    font-family: 'Pattaya', sans-serif;
+}
+
+
+.d-flex button:hover{
+    background-color: #1C96CE;
+}
+
+.nav-item {
+	font-family: Namumsq-R;
+}
+
+.nav-item:not(:first-child) {
+	margin-left: 20px;
+}
+
+
+.nav-link:hover {
+    font-family: Namumsq-B;
+
+}
+
+
+.nav-item .nav-link .nav-link1 {
+	color: #97d4dd;
+}
+
+.nav-link .nav-link2:hover {
+	color: #ee785f;
+}
+
+.nav-link .nav-link3:hover {
+	color: #eecc6e;
+}
+
+
+
+.navbar-nav2 {
+    float: left;
+    margin-left: auto;
+}
+
+
+
+
+
+.helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.pagetitle {
+	text-align: center;
+	height: 300px;
+	background-image: url(../images/title-img.svg);
+	background-size: cover;
+	background-position: center;
+}
+.pagetitle .pagetitle-text{
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Namumsq-B;
+}
+
+.pagetitle .pagetitle-text h1 {
+	font-size: 32px;
+	line-height: 60px;
+}
+.pagetitle .pagetitle-text h3 {
+	font-size: 36px;
+	line-height: 60px;
+}
+
+
+
+
+
+
+
+
+.sub-nav {
+	text-align: center;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.sub-nav a{
+	font-family: Namumsq-B;
+	font-size: 20px;
+	text-decoration: none;
+	color: #888;
+	line-height: 65.6px;
+	box-sizing: border-box;
+	padding: 22px 60px;
+    border-right: 1px solid #ddd;
+}
+
+.sub-nav .sub-link1{
+	border-left: 1px solid #ddd;
+	padding: 22px 76.7px;
+	background-color: #ee785f;
+	color: white;
+}
+
+.sub-nav .sub-link2 {
+	padding: 22px 85.8px;
+
+}
+
+.sub-nav a:hover:not(:first-child) {
+	color: #ee785f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container .content img{
+	text-align: center;
+	width: 700px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.container .content .point1 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 39%;
+	top: 142%;
+}
+
+.container .content .point2 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 38.8%;
+	top: 146%;
+}
+
+.container .content .point3 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 48.5%;
+	top: 260%;
+}
+
+.container .content .point4 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 38.7%;
+	top: 267%;
+}
+
+.container .content .point5 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 48.5%;
+	top: 428%;
+}
+
+.container .content .point6 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 38.7%;
+	top: 437.5%;
+}
+
+.container .content .point7 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 63%;
+	top: 425%;
+}
+
+.container .content .point8 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 38.7%;
+	top: 588.5%;
+}
+
+
+.container .content .point9 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 48.5%;
+	top: 579%;
+}
+
+
+.container .content .point10 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 63%;
+	top: 576.5%;
+}
+
+
+.container .content .point11 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 67.3%;
+	top: 579%;
+}
+
+.container .content .point12 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 38.7%;
+	top: 752.5%;
+}
+
+
+.container .content .point13 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 48.5%;
+	top: 743.3%;
+}
+
+
+.container .content .point14 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 63%;
+	top: 740.7%;
+}
+
+
+.container .content .point15 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 67.3%;
+	top: 743.3%;
+}
+
+.container .content .point16 {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 35px;
+	right: 39.5%;
+	top: 748.6%;
+}
+
+
+
+
+
+
+
+.container .content {
+	text-align: center;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.container .content h3 {
+	font-family: Namumsq-B;
+	font-size: 28px;
+	line-height: 40px;
+	text-shadow:  #f4b1a6 2px 1.5px 1px;
+}
+
+.container .content h4 {
+	font-family: Namumsq-B;
+	font-size: 24px;
+	margin-top: 150px;
+}
+
+.container .content h6 {
+	font-family: Namumsq-R;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+
+.container .content p {
+	font-size: 16px;
+	line-height: 30px;
+	font-family: Namumsq-R;
+	text-align: justify;
+	margin-top: 10px;
+	margin-bottom: 200px;
+	display: block;
+}
+
+.card-content {
+	text-align: center;
+	margin-left: auto;
+	width: 700px;
+	margin-top:100px;
+}
+
+.card-content .card {
+	border-radius: 30px;
+	display: block;
+}
+
+
+.card {
+	box-sizing: border-box;
+	width: 228px;
+	box-shadow: 6px 8px 10px #ccc;
+	display: inline-block;
+	float: left;
+	position: absolute;
+	right: 43%;
+	margin-bottom: 50px;
+	display: block;
+}
+
+.card img{
+	width: 100%;
+	height: 150px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+.card-content :not(:last-child) {
+	margin-right: 8px;
+}
+
+.card .textbox {
+	text-align: center;
+	padding: 20px 20px 30px 20px;
+}
+
+.card .textbox h2 {
+	font-family: Namumsq-B;
+	font-size: 1.3em;
+	text-align: center;
+	letter-spacing: -.5px;
+}
+.card .textbox p {
+	font-family: Namumsq-R;
+	display: block;
+	border-radius: 2px;
+	background-color: white;
+	text-decoration: none;
+	color: #525252;
+	text-align: justify;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 30px;
+	letter-spacing: -.5px;
+
+}
+
+.card .textbox a{
+	font-family: Namumsq-B;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	box-sizing: border-box;
+	background-color: #ee785f;
+	padding: 5px 30px;
+	border-radius: 3px;
+}
+
+.footer {
+    font-family: Namumsq-R;
+    background-color: #dcdddd;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    margin-top: 200px;
+    display: block;
+}
+

@@ -1,0 +1,270 @@
+* { 
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@font-face {
+    src : url(../fonts/NanumSquare_acR.ttf);
+    font-family: Namumsq-R;
+}
+
+@font-face {
+    src : url(../fonts/NanumSquare_acB.ttf);
+    font-family: Namumsq-B;
+}
+
+@font-face {
+    src : url(../fonts/NanumSquare_acEB.ttf);
+    font-family: Namumsq-EB;
+}
+
+@font-face {
+    src : url(../fonts/NanumSquare_acL.ttf);
+    font-family: Namumsq-L;
+}
+
+
+
+
+
+.collapse .navbar-collapse {
+    height: 80px;
+}
+
+.navbar-brand {
+    font-family: 'Pattaya', sans-serif;
+}
+
+.nav-item {
+    font-family: Namumsq-R;
+}
+
+.nav-item .nav-link{
+    font-size: 1em;
+}
+
+.nav-item:not(:first-child) {
+    margin-left: 20px;
+}
+
+
+
+.nav-link:hover {
+    font-family: Namumsq-B;
+
+}
+
+
+.navbar-nav2 {
+    float: left;
+    margin-left: auto;
+}
+
+
+
+
+
+
+.carousel-item.item1 {
+    background-image: url(../images/main.svg);
+    background-size: cover;
+}
+
+.carousel-item.item2 {
+    background-image: url(../images/main2.svg);
+    background-size: cover;
+}
+
+.carousel-item.item3 {
+    background-image: url(../images/main3.svg);
+    background-size: cover;
+}
+
+.carousel-item {
+    background-color: white;
+    height: 600px;
+}
+
+
+
+
+
+
+
+.station1 {
+    display: block;
+    background-image: url(../images/station1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    height: 400px;
+    border-radius: 12px;
+    font-family: Namumsq-EB;
+}
+
+.station2 {
+    display: block;
+    background-image: url(../images/station3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    height: 400px;
+    border-radius: 12px;
+    font-family: Namumsq-EB;
+}
+
+.station3 {
+    display: block;
+    background-image: url(../images/station4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    height: 400px;
+    border-radius: 12px;
+    font-family: Namumsq-EB;
+}
+
+.station4 {
+    display: block;
+    background-image: url(../images/station5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    height: 400px;
+    border-radius: 12px;
+    font-family: Namumsq-EB;
+}
+
+
+
+.container .content img{
+    text-align: left;
+    width: 700px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 300px;
+    border-radius: 10px;
+}
+
+
+
+.container .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    text-align: center;
+}
+
+
+.container .content .textbox{
+    display: inline-block;
+    float: left;
+    background-color: #97d4dd;
+    position: absolute;
+    padding: 60px 70px 50px 70px;
+    right: 15%;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 7px 12px 7px #dcdddd;
+    margin-top: 200px;
+}
+
+.container .content .textbox2{
+    display: inline-block;
+    float: left;
+    position: absolute;
+    right: 38%
+}
+
+.container .content .textbox2 h3 {
+    text-align:left;
+    font-family: Namumsq-B;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.container .content .textbox2 a {
+    text-decoration: none;
+    color: white;
+    font-family: Namumsq-B;
+    font-size: 21px;
+    box-sizing: border-box;
+    background-color: #ee785f;
+    padding: 10px 30px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 1px #fff;
+}
+
+
+
+.container .content .textbox h3 {
+    text-align:left;
+    font-family: Namumsq-B;
+    font-size: 36px;
+    color: #333;
+}
+
+.container .content .textbox a {
+    text-decoration: none;
+    color: #97d4dd;
+    font-family: Namumsq-B;
+    font-size: 21px;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 6px 50px;
+    border-radius: 4px;
+}
+
+
+
+.container .content p {
+    font-size: 18px;
+    line-height: 35px;
+    font-family: Namumsq-B;
+    text-align: justify;
+    color: #4c4c4c;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+.title h3{
+    display: inline-block;
+    color: #fff;
+    font-family: Namumsq-B;
+    font-size: 32px;
+    margin-top: 330px;
+    margin-left: 12px;
+}
+
+.container .head {
+    font-size: 64px;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    color: #35B3E9;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+.footer {
+    font-family: Namumsq-R;
+    background-color: #dcdddd;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    margin-top: 200px;
+}
